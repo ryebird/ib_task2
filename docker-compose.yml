@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: password-obfuscation-demo
+    ports:
+      - "3000:3000"

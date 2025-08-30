@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Защищенная страница</title>
+  <link rel="icon" href="data:,">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Подтвердите действие на этой странице</h1>
+
+    <form id="loginForm">
+      <input type="text" name="username" placeholder="Имя пользователя" autocomplete="off" />
+      <input type="password" name="password" placeholder="Введите пароль" autocomplete="off" />
+      <button type="submit">Подтвердить</button>
+    </form>
+
+    <p id="msg" class="error"></p>
+    <pre id="flag" hidden></pre>
+  </div>
+
+  <script src="/static/index.js"></script>
+</body>
+</html>
